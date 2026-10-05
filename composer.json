@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/symfony-stimulus-bundle",
+    "description": "Tyhp type definitions for symfony/stimulus-bundle 3.4.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.4.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/symfony-stimulus-bundle-impl": "~3.4.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/symfony-stimulus-bundle-impl"
+        }
+    }
+}
